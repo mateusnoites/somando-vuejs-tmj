@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./somando.css">
+    <title>Somando Números</title>
+  </head>
+  <body>
+    <div id="app">
+      <h2>{{ resultado }}</h2>
+    </div>
+
+    <div id="calculo">
+      <input type="number" classs="inputs" id="num1" placeholder="Primeiro Número">
+      <p id="mais">+</p>
+      <input type="number" class="inputs" id="num2" placeholder="Segundo Número">
+
+      <input type="button" id="somar" value="=" onclick="somar()">
+    </div>
+
+    <footer>© by mateusnoites :P</footer>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="./somando.js"></script>
+  </body>
+</html>
